@@ -8,7 +8,7 @@ I couldn't find a solution that was good enough for my purposes, so this is what
 
 `sed -i '' -e 's|<span class="label-name">|<span class="label-name">#|g' *.html`
 
-- Replace /path/to with the correct path to these files (set_time.py is in this repo and the Takeout folder should be the one you just downloaded) and run this command :
+- Next we're going to change the creation/modification dates of the downloaded notes so their date/times will get imported into Bear. Replace /path/to with the correct path to these files (set_time.py is in this repo and the Takeout folder should be the one you just downloaded) and run this command.
 
 `python /path/to/Keep-to-Bear/set_time.py /path/to/Takeout/Keep/*.html`
 
