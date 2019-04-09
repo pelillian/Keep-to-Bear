@@ -8,9 +8,10 @@ I couldn't find a solution that was good enough for my purposes, so this is what
 
 `sed -i '' -e 's|<span class="label-name">|<span class="label-name">#|g' *.html`
 
-- Next we're going to change the creation/modification dates of the downloaded notes so their date/times will get imported into Bear. Replace /path/to with the correct path to these files (set_time.py is in this repo and the Takeout folder should be the one you just downloaded) and run this command.
+- Next we're going to change the creation/modification dates of the downloaded notes so their date/times will get imported into Bear. Replace /path/to with the correct path to these files (set_time.py is in this repo and the Takeout folder should be the one you just downloaded) and run these commands.
 
-`python /path/to/Keep-to-Bear/set_time.py /path/to/Takeout/Keep/*.html`
+`pip3 install parsedatetime`
+`python3 /path/to/Keep-to-Bear/set_time.py /path/to/Takeout/Keep/*.html`
 
 - Then import all the html files into Bear (File -> Import Notes), checking "Keep original dates" and "Use file name as title".
 
