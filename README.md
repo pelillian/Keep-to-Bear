@@ -10,4 +10,6 @@ In terminal navigate to the Takeout/Keep/ folder & run this. It adds hashtags to
 Replace /path/to with the correct path to these files (set_time.py is in this repo and the Takeout folder should be the one you just downloaded).
 `python /path/to/Keep-to-Bear/set_time.py /path/to/Takeout/Keep/*.html`
 
-Then import all the html files into Bear, checking "Keep original dates" and "Use file name as title".
+Then import all the html files into Bear (File -> Import Notes), checking "Keep original dates" and "Use file name as title".
+
+If you use the pound (#) character in your notes, Bear might pick it up as a tag. You can go through these and wrap them in backticks (\`) so they won't get added as tags.
