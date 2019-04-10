@@ -2,7 +2,7 @@
 
 I couldn't find a solution that was good enough for my purposes, so this is what I came up with. This **works with images**, and it **preserves all of your tags!**
 
-- Use [Google Takeout](takeout.google.com) to export your Google Keep notes to a zip file. Download it and extract it somewhere on your computer.
+- Use Google Takeout (takeout.google.com) to export your Google Keep notes to a zip file. Download it and extract it somewhere on your computer.
 
 - In terminal navigate to the Takeout/Keep/ folder & run this. It adds hashtags to your labels so that Bear will recognise them.
 
