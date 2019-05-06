@@ -15,4 +15,4 @@ I couldn't find a solution that was good enough for my purposes, so this is what
 
 - Then import all the html files into Bear (File -> Import Notes), checking "Keep original dates" and "Use file name as title".
 
-If you use the pound (#) character in your notes, Bear might pick it up as a tag. You can go through these and wrap them in backticks (\`) so they won't get added as tags.
+If you use the pound (#) character in your notes, Bear might pick it up as a tag. You can go through these and wrap them in backticks (\`) so they won't get added as tags (For me this was easier to do once everything was already imported to Bear).
