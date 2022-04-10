@@ -18,6 +18,5 @@ for file in "$@"
 do
   echo "Parsing "${file}
   sed -i '' -e 's|<span class="label-name">|<span class="label-name">#|g' "${file}"
-  echo "#googlekeep" >> "${file}"
   python3 ${DIR}/set_time.py "${file}"
 done
