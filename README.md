@@ -11,10 +11,8 @@ pip3 install parsedatetime
 /path/to/Keep-to-Bear/convert.sh *.html
 ```
 
+The script changes the creation/modification dates of the downloaded notes so their date/times will get imported into Bear.
+
 3. Then import all the html files into Bear (File -> Import Notes), checking "Keep original dates" and "Use file name as title".
 
 If you use the pound (#) character in your notes, Bear might pick it up as a tag. You can go through these and wrap them in backticks (\`) so they won't get added as tags (For me this was easier to do once everything was already imported to Bear).
-
-# What the script does
-
-- We change the creation/modification dates of the downloaded notes so their date/times will get imported into Bear.
