@@ -18,4 +18,3 @@ If you use the pound (#) character in your notes, Bear might pick it up as a tag
 # What the script does
 
 - We change the creation/modification dates of the downloaded notes so their date/times will get imported into Bear.
-- We add the tag "#googlekeep" to each note
